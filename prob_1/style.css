@@ -1,0 +1,170 @@
+.container {
+  background-color: #181a31;
+  width: 1100px;
+  height: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  width: 900px;
+  justify-content: center;
+}
+
+/*User card*/
+.user-container {
+  width: 200px;
+  height: 450px;
+  margin-right: 30px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  background-color: #1d204b;
+  height: 430px;
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.user-info {
+  width: 200px;
+  height: 310px;
+  background-color: #5746ea;
+  border-radius: 10px;
+}
+
+.user-img img {
+  border: 2px solid white;
+  margin-top: 10px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 35px;
+}
+
+.user-img,
+.report,
+.name {
+  color: white;
+  padding-top: 10px;
+  margin-left: 15px;
+}
+
+.interval {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 35px;
+}
+
+#daily,
+#weekly,
+#monthly {
+  color: rgba(255, 255, 255, 0.438);
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#weekly {
+  color: white;
+}
+
+/*6 cards*/
+.time-content {
+  display: flex;
+  height: 450px;
+  width: 700px;
+  flex-wrap: wrap;
+}
+
+.square {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.info {
+  width: 200px;
+  height: 170px;
+  background-color: #1d204b;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  position: relative;
+}
+.title {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.activity {
+  margin-left: 20px;
+}
+.dots {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.currHours {
+  font-size: 50px;
+  text-align: center;
+}
+.lastWeekHours {
+  text-align: center;
+}
+
+.work {
+  background-color: #ff8b63;
+}
+
+.play {
+  background-color: #56c2e6;
+}
+
+.study {
+  background-color: #ff5e7d;
+}
+
+.exercise {
+  background-color: #4bcf83;
+}
+
+.social {
+  background-color: #7234d2;
+}
+
+.self-care {
+  background-color: #f1c75b;
+}
+
+.square img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  transform: rotate(45deg);
+  align-self: flex-end;
+  opacity: 0.5;
+  margin-right: 10px;
+}
